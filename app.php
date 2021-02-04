@@ -7,10 +7,10 @@ $age = 25; // yaş (sene)
 
 if ($sex=="female") {
 	$FemaleCalorie = 10*$weight + 6.25*$height - 5*$age - 161;
-	echo $FemaleCalorie;
+	echo "Günlük İhtiyacınız Olan Kalori=".$FemaleCalorie;
 }elseif ($sex=="male") {
 	$MaleCalorie = 10*$weight + 6.25*$height - 5*$age + 5;
-	echo $MaleCalorie;
+	echo "Günlük İhtiyacınız Olan Kalori=".$MaleCalorie;
 }else{
 	echo "Hata!";
 }
